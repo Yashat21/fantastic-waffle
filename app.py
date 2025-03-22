@@ -12,7 +12,7 @@ from pyht.client import TTSOptions
 
 load_dotenv()
 
-client = Groq(api_key="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")
+client = Groq(api_key="*****")
 
 @cl.oauth_callback
 def oauth_callback(
@@ -35,8 +35,8 @@ async def speech_to_text(audio_file):
 
 def text_to_speech(text):
     client = Client(
-        user_id="04aWglgjEFQdGoprrX450kffmNm1",
-        api_key="5482f663fe514c418cf444f03df5d719",
+        user_id="*****",
+        api_key="*****",
     )
 
     
